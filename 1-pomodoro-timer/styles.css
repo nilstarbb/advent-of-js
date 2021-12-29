@@ -37,6 +37,10 @@ body {
   z-index: 1;
 }
 
+.ring circle {
+  transition: stroke-dashoffset 0.35s;
+}
+
 .ring.ending circle {
   stroke: #900a0a;
 }

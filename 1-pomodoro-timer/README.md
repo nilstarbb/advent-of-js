@@ -20,4 +20,10 @@ Users should be able to:
 
 Live Demo: [GitHub Pages](https://nilstarbb.github.io/advent-of-js/1-pomodoro-timer/index-REACT.html)
 
+with progress bar:
+
+![Pomodoro Timer Progress](./pomodoro-timer-progress.gif)
+
+without progress bar:
+
 ![Pomodoro Timer](./pomodoro-timer.gif)
