@@ -3,8 +3,11 @@ const { useState, useEffect } = React;
 const App = () => {
   const [minute, setMinute] = useState("1");
   const [second, setSecond] = useState("00");
+  const inputSecond = parseInt(minute) * 60 + parseInt(second);
+  const maxSecond = 99 * 60 + 59;
+
   const [totalSecond, setTotalSecond] = useState(
-    parseInt(minute) * 60 + parseInt(second)
+    inputSecond > maxSecond ? maxSecond : inputSecond
   );
   const [targetSecond, setTargetSecond] = useState(0);
 
@@ -16,13 +19,11 @@ const App = () => {
       const interval = setInterval(() => {
         if (totalSecond === 0) {
           clearInterval(interval);
+          alert("Ding!");
           setIsClicking((isClicking) => false);
-          // console.log("interval stop");
         } else {
           setTotalSecond((totalSecond) => totalSecond - 1);
-          // console.log("interval continue");
         }
-        // console.log("interval set");
       }, 1000);
       return () => clearInterval(interval);
     }
@@ -30,7 +31,6 @@ const App = () => {
     if (totalSecond === 0) {
       setIsClicking((isClicking) => false);
       setTargetSecond(0);
-      alert("Ding!");
     }
   }, [totalSecond, isClicking]);
 
@@ -41,13 +41,12 @@ const App = () => {
         .padStart(2, "0")
     );
     setSecond((totalSecond % 60).toString().padStart(2, "0"));
-    // console.log("total", totalSecond, "minute", minute, "second", second);
   }, [totalSecond]);
 
   const clickButton = () => {
     if (isSetting) {
-      setTotalSecond(parseInt(minute) * 60 + parseInt(second));
-      setTargetSecond(parseInt(minute) * 60 + parseInt(second));
+      setTotalSecond(inputSecond > maxSecond ? maxSecond : inputSecond);
+      setTargetSecond(inputSecond > maxSecond ? maxSecond : inputSecond);
     }
 
     if (totalSecond > 0) {
@@ -55,7 +54,9 @@ const App = () => {
       setTargetSecond((targetSecond) =>
         targetSecond > 0
           ? targetSecond
-          : parseInt(minute) * 60 + parseInt(second)
+          : inputSecond > maxSecond
+          ? maxSecond
+          : inputSecond
       );
       setIsSetting((isSetting) => false);
     }
