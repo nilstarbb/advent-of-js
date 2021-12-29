@@ -16,3 +16,8 @@ Users should be able to:
 - Start and Stop the Timer
 - Click on the gear icon to change the length (minutes and seconds) for the timer.
 
+## Demo
+
+Live Demo: [GitHub Pages](https://nilstarbb.github.io/advent-of-js/1-pomodoro-timer/index-REACT.html)
+
+![Pomodoro Timer](./pomodoro-timer.gif)

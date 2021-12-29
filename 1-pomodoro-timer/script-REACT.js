@@ -1,8 +1,8 @@
 const { useState, useEffect } = React;
 
 const App = () => {
-  const [minute, setMinute] = useState("0");
-  const [second, setSecond] = useState("10");
+  const [minute, setMinute] = useState("15");
+  const [second, setSecond] = useState("00");
   const [totalSecond, setTotalSecond] = useState(
     parseInt(minute) * 60 + parseInt(second)
   );
@@ -10,25 +10,23 @@ const App = () => {
   const [isSetting, setIsSetting] = useState(false);
 
   useEffect(() => {
-    // BUG: lagging 1 second
     if (totalSecond === 0) {
       setIsClicking((isClicking) => false);
     }
 
     if (isClicking) {
       const interval = setInterval(() => {
-        clearInterval(interval);
-
         if (totalSecond === 0) {
           clearInterval(interval);
           setIsClicking((isClicking) => false);
-          console.log("interval stop");
+          // console.log("interval stop");
         } else {
           setTotalSecond((totalSecond) => totalSecond - 1);
-          console.log("interval continue");
+          // console.log("interval continue");
         }
-        console.log("interval set");
+        // console.log("interval set");
       }, 1000);
+      return () => clearInterval(interval);
     }
   }, [totalSecond, isClicking]);
 
@@ -39,11 +37,14 @@ const App = () => {
         .padStart(2, "0")
     );
     setSecond((totalSecond % 60).toString().padStart(2, "0"));
-    console.log("total", totalSecond, "minute", minute, "second", second);
+    // console.log("total", totalSecond, "minute", minute, "second", second);
   }, [totalSecond]);
 
   const clickButton = () => {
-    setTotalSecond((totalSecond) => parseInt(minute) * 60 + parseInt(second));
+    if (isSetting) {
+      setTotalSecond((totalSecond) => parseInt(minute) * 60 + parseInt(second));
+    }
+
     if (totalSecond > 0) {
       setIsClicking((isClicking) => !isClicking);
       setIsSetting((isSetting) => false);
