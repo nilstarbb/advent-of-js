@@ -15,24 +15,16 @@ const App = () => {
   const [isSetting, setIsSetting] = useState(false);
 
   useEffect(() => {
-    if (isClicking) {
-      const interval = setInterval(() => {
-        if (totalSecond === 0) {
-          clearInterval(interval);
-          alert("Ding!");
-          setIsClicking((isClicking) => false);
-        } else {
-          setTotalSecond((totalSecond) => totalSecond - 1);
-        }
-      }, 1000);
-      return () => clearInterval(interval);
-    }
-
-    if (totalSecond === 0) {
-      setIsClicking((isClicking) => false);
-      setTargetSecond(0);
-    }
-  }, [totalSecond, isClicking]);
+    const interval = setInterval(() => {
+      if (totalSecond === 0) {
+        clearInterval(interval);
+        alert("Ding!");
+      } else if (isClicking) {
+        setTotalSecond((totalSecond) => totalSecond - 1);
+      }
+    }, 1000);
+    return () => clearInterval(interval);
+  }, [isClicking]);
 
   useEffect(() => {
     setMinute(
@@ -41,12 +33,18 @@ const App = () => {
         .padStart(2, "0")
     );
     setSecond((totalSecond % 60).toString().padStart(2, "0"));
+
+    if (totalSecond === 0) {
+      setIsClicking(false);
+      setTargetSecond(0);
+    }
   }, [totalSecond]);
 
   const clickButton = () => {
     if (isSetting) {
       setTotalSecond(inputSecond > maxSecond ? maxSecond : inputSecond);
       setTargetSecond(inputSecond > maxSecond ? maxSecond : inputSecond);
+      setIsSetting(false);
     }
 
     if (totalSecond > 0) {
@@ -58,13 +56,12 @@ const App = () => {
           ? maxSecond
           : inputSecond
       );
-      setIsSetting((isSetting) => false);
     }
   };
 
   const clickSetting = () => {
     if (!isClicking) {
-      setIsSetting((isSetting) => true);
+      setIsSetting(true);
     }
   };
 
