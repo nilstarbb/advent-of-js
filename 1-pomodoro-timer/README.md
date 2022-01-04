@@ -20,6 +20,8 @@ Users should be able to:
 
 Live Demo: [GitHub Pages](https://nilstarbb.github.io/advent-of-js/1-pomodoro-timer/index-REACT.html)
 
+Tutorial: [#1 Pomodoro Timer (React.js) - Advent of JS](https://tech.randomwaves.space/posts/21-12-30-1-pomodoro-timer-reactjs-advent-of-js/)
+
 with progress bar:
 
 ![Pomodoro Timer Progress](./pomodoro-timer-progress.gif)
