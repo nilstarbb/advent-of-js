@@ -35,3 +35,9 @@ Users should be able to:
     - A user should not be able to mark the quantity as a negative number.
     - If the quantity goes down to 0, the user will have the option to delete or remove the product from their cart entirely.
 - Tax is based on the state of Tennessee sales tax: 0.0975
+
+# Demo
+
+Live Demo: [GitHub Pages](https://nilstarbb.github.io/advent-of-js/2-eCommerce-component/index-REACT.html)
+
+![eCommerce Component](./ecommerce-component.gif)
