@@ -9,3 +9,9 @@ Users should be able to:
 - When a user clicks on a specific key, it will play an audio clip. 
   - The audio clips are numbered, but I did not specifically number the keys. You can pick which key should be associated with each audio file.
   - If a user clicks on one key, then immediately clicks on a second key. The 2 files should both play. Meaning, clicking on one key will not stop an existing audio file from playing. 
+
+# Demo
+
+Live Demo: [GitHub Pages](https://nilstarbb.github.io/advent-of-js/3-piano-keyboard/index.html)
+
+![Piano Keyboard](./piano.gif)

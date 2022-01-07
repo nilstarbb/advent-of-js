@@ -3,6 +3,7 @@
 - [Advent of JavaScript](#advent-of-javascript)
   - [1 - Pomodoro Timer](#1---pomodoro-timer)
   - [2 - eCommerce Component](#2---ecommerce-component)
+  - [3 - Piano Keyboard](#3---piano-keyboard)
 
 ## 1 - Pomodoro Timer 
 
@@ -32,3 +33,19 @@ Users should be able to:
 - Tax is based on the state of Tennessee sales tax: 0.0975
 
 ![eCommerce Component](./2-eCommerce-component/ecommerce-component.gif)
+
+## 3 - Piano Keyboard
+
+[Live Demo](https://nilstarbb.github.io/advent-of-js/3-piano-keyboard/index.html) | [Code](https://github.com/nilstarbb/advent-of-js/tree/main/3-piano-keyboard) | [Tutorial](https://tech.randomwaves.space/posts/22-01-07-3-piano-keyboard-advent-of-js/)
+
+Users should be able to:
+
+- See the keyboard centered on the page
+- Whenever a user hovers over a specific key it will change colors 
+  - White keys will change to yellow #ffd200
+  - Black keys will change to pink #f40082
+- When a user clicks on a specific key, it will play an audio clip. 
+  - The audio clips are numbered, but I did not specifically number the keys. You can pick which key should be associated with each audio file.
+  - If a user clicks on one key, then immediately clicks on a second key. The 2 files should both play. Meaning, clicking on one key will not stop an existing audio file from playing. 
+
+![Piano Keyboard](./3-piano-keyboard/piano.gif)
