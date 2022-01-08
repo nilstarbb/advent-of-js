@@ -6,6 +6,7 @@
   - [3 - Piano Keyboard](#3---piano-keyboard)
   - [4 - Computer Keyboard](#4---computer-keyboard)
   - [5 - Multiple Checkboxes](#5---multiple-checkboxes)
+  - [6 - Range Slider](#6---range-slider)
 
 ## 1 - Pomodoro Timer 
 
@@ -75,3 +76,13 @@ Users should be able to:
 - Check one episode, shift click (use ctrl instead) to select all the episodes in between
 
 ![Multiple Checkboxes](./5-multiple-checkboxes/multiple-checkboxes.gif)
+
+## 6 - Range Slider
+
+[Live Demo](https://nilstarbb.github.io/advent-of-js/6-range-slider/index.html) | [Code](https://github.com/nilstarbb/advent-of-js/tree/main/6-range-slider) | [Tutorial](https://tech.randomwaves.space/posts/22-01-08-6-range-slider-advent-of-js/)
+
+Users should be able to: 
+
+- Move the knob on the range and the dollar amount above it will update.
+
+![Range Slider](./6-range-slider/range-slider.gif)
