@@ -5,6 +5,7 @@
   - [2 - eCommerce Component](#2---ecommerce-component)
   - [3 - Piano Keyboard](#3---piano-keyboard)
   - [4 - Computer Keyboard](#4---computer-keyboard)
+  - [5 - Multiple Checkboxes](#5---multiple-checkboxes)
 
 ## 1 - Pomodoro Timer 
 
@@ -63,3 +64,14 @@ Users should be able to:
 - A new, random key will start jiggling
 
 ![Computer Keyboard](./4-computer-keyboard/computer-keyboard.gif)
+
+## 5 - Multiple Checkboxes
+
+[Live Demo](https://nilstarbb.github.io/advent-of-js/5-multiple-checkboxes/index.html) | [Code](https://github.com/nilstarbb/advent-of-js/tree/main/5-multiple-checkboxes) | [Tutorial](https://tech.randomwaves.space/posts/22-01-08-5-multiple-checkboxes-advent-of-js/)
+
+Users should be able to:
+
+- See the list of podcast episodes
+- Check one episode, shift click (use ctrl instead) to select all the episodes in between
+
+![Multiple Checkboxes](./5-multiple-checkboxes/multiple-checkboxes.gif)
