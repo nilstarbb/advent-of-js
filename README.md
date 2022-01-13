@@ -7,6 +7,7 @@
   - [4 - Computer Keyboard](#4---computer-keyboard)
   - [5 - Multiple Checkboxes](#5---multiple-checkboxes)
   - [6 - Range Slider](#6---range-slider)
+  - [7 - Tip Calculator](#7---tip-calculator)
 
 ## 1 - Pomodoro Timer 
 
@@ -86,3 +87,13 @@ Users should be able to:
 - Move the knob on the range and the dollar amount above it will update.
 
 ![Range Slider](./6-range-slider/range-slider.gif)
+
+## 7 - Tip Calculator
+
+[Live Demo](https://nilstarbb.github.io/advent-of-js/7-tip-calculator/index.html) | [Code](https://github.com/nilstarbb/advent-of-js/tree/main/7-tip-calculator) | [Tutorial](https://tech.randomwaves.space/posts/22-01-13-7-tip-calculator-advent-of-js/)
+
+Users should be able to: 
+
+- calculate tip based on tip percentage, bill amount, and number of people
+
+![Tip Calculator](./7-tip-calculator/tip-calculator.gif)
