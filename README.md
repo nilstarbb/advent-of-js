@@ -8,6 +8,7 @@
   - [5 - Multiple Checkboxes](#5---multiple-checkboxes)
   - [6 - Range Slider](#6---range-slider)
   - [7 - Tip Calculator](#7---tip-calculator)
+  - [8 - Weather API](#8---weather-api)
 
 ## 1 - Pomodoro Timer 
 
@@ -97,3 +98,13 @@ Users should be able to:
 - calculate tip based on tip percentage, bill amount, and number of people
 
 ![Tip Calculator](./7-tip-calculator/tip-calculator.gif)
+
+## 8 - Weather API
+
+[Live Demo](https://nilstarbb.github.io/advent-of-js/8-weather-api/index.html) | [Code](https://github.com/nilstarbb/advent-of-js/tree/main/8-weather-api) | [Tutorial](https://tech.randomwaves.space/posts/22-01-14-8-weather-api-advent-of-js/)
+
+Users should be able to:
+
+- view weather for the upcoming week
+
+![Weather API](./8-weather-api/weather-api.jpg)
