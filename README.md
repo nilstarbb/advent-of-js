@@ -9,6 +9,7 @@
   - [6 - Range Slider](#6---range-slider)
   - [7 - Tip Calculator](#7---tip-calculator)
   - [8 - Weather API](#8---weather-api)
+  - [9 - Image Carousel](#9---image-carousel)
 
 ## 1 - Pomodoro Timer 
 
@@ -101,10 +102,21 @@ Users should be able to:
 
 ## 8 - Weather API
 
-[Live Demo](https://nilstarbb.github.io/advent-of-js/8-weather-api/index.html) | [Code](https://github.com/nilstarbb/advent-of-js/tree/main/8-weather-api) | [Tutorial](https://tech.randomwaves.space/posts/22-01-14-8-weather-api-advent-of-js/)
+[Live Demo](https://nilstarbb.github.io/advent-of-js/8-weather-api/index-REACT.html) | [Code](https://github.com/nilstarbb/advent-of-js/tree/main/8-weather-api) | [Tutorial](https://tech.randomwaves.space/posts/22-01-14-8-weather-api-advent-of-js/)
 
 Users should be able to:
 
 - view weather for the upcoming week
 
 ![Weather API](./8-weather-api/weather-api.jpg)
+
+## 9 - Image Carousel
+
+[Live Demo](https://nilstarbb.github.io/advent-of-js/9-image-carousel/index-REACT.html) | [Code](https://github.com/nilstarbb/advent-of-js/tree/main/9-image-carousel) | [Tutorial](https://tech.randomwaves.space/posts/22-01-14-9-image-carousel-advent-of-js/)
+
+Users should be able to: 
+
+- toggle left and right through the image thumbnails
+- click an image to select it manually
+
+![Image Carousel](./9-image-carousel/image-carousel.gif)
