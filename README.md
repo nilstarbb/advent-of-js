@@ -10,6 +10,7 @@
   - [7 - Tip Calculator](#7---tip-calculator)
   - [8 - Weather API](#8---weather-api)
   - [9 - Image Carousel](#9---image-carousel)
+  - [10 - 4 Digit Code](#10---4-digit-code)
 
 ## 1 - Pomodoro Timer 
 
@@ -120,3 +121,14 @@ Users should be able to:
 - click an image to select it manually
 
 ![Image Carousel](./9-image-carousel/image-carousel.gif)
+
+## 10 - 4 Digit Code
+
+[Live Demo](https://nilstarbb.github.io/advent-of-js/10-4-digit-code/index.html) | [Code](https://github.com/nilstarbb/advent-of-js/tree/main/10-4-digit-code) | [Tutorial](https://tech.randomwaves.space/posts/22-01-27-10-four-digit-code-advent-of-js/)
+
+Users should be able to: 
+
+- type in a digit and automatically be taken to the next input
+- paste in a 4 digit code
+
+![4 Digit Code](./10-4-digit-code/digit-code.gif)

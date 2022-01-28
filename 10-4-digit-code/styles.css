@@ -53,6 +53,7 @@ input[type=text] {
   width: 80px;
   background: #F0F3FA;
   height: 85px;
+  text-transform: uppercase;
 }
 
 
