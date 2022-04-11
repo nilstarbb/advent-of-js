@@ -11,6 +11,7 @@
   - [8 - Weather API](#8---weather-api)
   - [9 - Image Carousel](#9---image-carousel)
   - [10 - 4 Digit Code](#10---4-digit-code)
+  - [11 - Accordions](#11---accordions)
 
 ## 1 - Pomodoro Timer 
 
@@ -132,3 +133,14 @@ Users should be able to:
 - paste in a 4 digit code
 
 ![4 Digit Code](./10-4-digit-code/digit-code.gif)
+
+## 11 - Accordions
+
+[Live Demo](https://nilstarbb.github.io/advent-of-js/11-accordions/index.html) | [Code](https://github.com/nilstarbb/advent-of-js/tree/main/11-accordions) | [Tutorial](https://tech.randomwaves.space/posts/22-04-11-11-accordions-advent-of-js/)
+
+Users should be able to: 
+
+- Click on a collapsed question to expand it and view the answer.
+- Click on a collapsed answer to collapse it and hide the answer.
+
+![Accordions](./11-accordions/11-accordion.gif)

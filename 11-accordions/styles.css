@@ -77,6 +77,10 @@ a:hover .question:after {
   background-color: #FFDD00;
 }
 
+.expand .question:after {
+  background: #FFDD00 url('./images/close.svg') calc(100% - 12px) 20px no-repeat;
+}
+
 .question .content {
   position: relative;
   z-index: 3;
