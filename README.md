@@ -12,6 +12,7 @@
   - [9 - Image Carousel](#9---image-carousel)
   - [10 - 4 Digit Code](#10---4-digit-code)
   - [11 - Accordions](#11---accordions)
+  - [12 - Rock, Paper, Scissors](#12---rock-paper-scissors)
 
 ## 1 - Pomodoro Timer 
 
@@ -144,3 +145,13 @@ Users should be able to:
 - Click on a collapsed answer to collapse it and hide the answer.
 
 ![Accordions](./11-accordions/11-accordion.gif)
+
+## 12 - Rock, Paper, Scissors
+
+[Live Demo](https://nilstarbb.github.io/advent-of-js/12-rock-paper-scissors/index.html) | [Code](https://github.com/nilstarbb/advent-of-js/tree/main/12-rock-paper-scissors) | [Tutorial](https://tech.randomwaves.space/posts/22-04-12-12-rock-paper-scissors-advent-of-js/)
+
+Users should be able to: 
+
+- play the game and see the results
+
+![Accordions](./12-rock-paper-scissors/rock-paper-scissors.gif)
