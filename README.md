@@ -13,6 +13,7 @@
   - [10 - 4 Digit Code](#10---4-digit-code)
   - [11 - Accordions](#11---accordions)
   - [12 - Rock, Paper, Scissors](#12---rock-paper-scissors)
+  - [13 - Custom Modal](#13---custom-modal)
 
 ## 1 - Pomodoro Timer 
 
@@ -155,3 +156,14 @@ Users should be able to:
 - play the game and see the results
 
 ![Accordions](./12-rock-paper-scissors/rock-paper-scissors.gif)
+
+## 13 - Custom Modal
+
+[Live Demo](https://nilstarbb.github.io/advent-of-js/13-custom-modal/index.html) | [Code](https://github.com/nilstarbb/advent-of-js/tree/main/13-custom-modal) | [Tutorial](https://tech.randomwaves.space/posts/22-04-13-13-custom-modal-advent-of-js/)
+
+Users should be able to: 
+
+- Click on a point on the image, that triggers the modal
+- Click on the x within the modal to close the modal
+
+![Custom Modal](./13-custom-modal/custom-modal.gif)

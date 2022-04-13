@@ -130,3 +130,7 @@ p {
   background-color: #3452a5;
   color: var(--gold);
 }
+
+.hidden {
+  display: none;
+}
