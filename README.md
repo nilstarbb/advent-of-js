@@ -14,6 +14,7 @@
   - [11 - Accordions](#11---accordions)
   - [12 - Rock, Paper, Scissors](#12---rock-paper-scissors)
   - [13 - Custom Modal](#13---custom-modal)
+  - [14 - Calendar Picker](#14---calendar-picker)
 
 ## 1 - Pomodoro Timer 
 
@@ -167,3 +168,14 @@ Users should be able to:
 - Click on the x within the modal to close the modal
 
 ![Custom Modal](./13-custom-modal/custom-modal.gif)
+
+## 14 - Calendar Picker
+
+[Live Demo](https://nilstarbb.github.io/advent-of-js/14-calendar-picker/index.html) | [Code](https://github.com/nilstarbb/advent-of-js/tree/main/14-calendar-picker) | [Tutorial](https://tech.randomwaves.space/posts/22-04-14-14-calendar-picker-advent-of-js/)
+
+Users should be able to: 
+
+- view calendar with correct days with the current day highlighted
+- navigate through different months
+
+<!-- ![Custom Modal](./14-calendar-picker/custom-modal.gif) -->
