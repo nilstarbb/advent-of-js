@@ -24,7 +24,7 @@ body {
   padding: 75px 100px;
 }
 
-div {
+.wrapper div {
   text-align: center;
   min-height: 60px;
   display: flex;
@@ -48,4 +48,8 @@ div {
   border-radius: 50%;
   height: 60px;
   width: 60px;
+}
+
+.previous, .next {
+  cursor: pointer;
 }

@@ -171,11 +171,11 @@ Users should be able to:
 
 ## 14 - Calendar Picker
 
-[Live Demo](https://nilstarbb.github.io/advent-of-js/14-calendar-picker/index.html) | [Code](https://github.com/nilstarbb/advent-of-js/tree/main/14-calendar-picker) | [Tutorial](https://tech.randomwaves.space/posts/22-04-14-14-calendar-picker-advent-of-js/)
+[Live Demo](https://nilstarbb.github.io/advent-of-js/14-calendar-picker/index.html) | [Code](https://github.com/nilstarbb/advent-of-js/tree/main/14-calendar-picker) | [Tutorial](https://tech.randomwaves.space/posts/22-04-18-14-calendar-picker-advent-of-js/)
 
 Users should be able to: 
 
 - view calendar with correct days with the current day highlighted
 - navigate through different months
 
-<!-- ![Custom Modal](./14-calendar-picker/custom-modal.gif) -->
+![Calendar Picker](./14-calendar-picker/calendar-picker.gif)
